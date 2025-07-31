@@ -1,0 +1,12 @@
+HOSPITAL MANAGEMENT SYSTEM  
+ABSTRACT
+
+The proposed project is a smart appointment booking system that provides patients or any user an easy way of booking a doctor’s appointment. This is an application that overcomes the issue of managing and booking appointments according to user’s choice or demands. The task sometimes becomes very tedious for the compounder or doctor himself in manually allotting appointments for the users as per their availability.
+
+Hence this project offers an effective solution where users can view various booking slots available and select the preferred date and time. The already booked space will be marked yellow and will not be available for anyone else for the specified time. This system also allows users to cancel their booking anytime.
+
+The system provides an additional feature of calculating monthly earnings of the doctor. The doctor has to just feed the system regularly with daily earnings and the system automatically generates a report of the total amount earned at the end of the month.
+
+The Hospital Management System can be entered using a username and password. It is accessible either by an administrator or receptionist. Only they can add data into the database. The data can be retrieved easily. The interface is very user-friendly. The data is well protected for personal use and makes the data processing very fast.
+
+The system has two main modules: one at the administration level and the other for users (Admin, Patients, and Doctors). The application maintains authentication in order to access the system. Administrator tasks include managing doctor information and patient information. A separate database is designed for patients and doctors which the admin can access. Complaints given by users are referred to the authorities. The Patient module includes checking appointments, prescriptions, and users can also pay the doctor's fee online.
