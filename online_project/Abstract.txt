@@ -1,0 +1,13 @@
+Title: Face Recognition Using PCA with Artificial Neural Network
+
+Abstract:
+
+This project presents an efficient approach to face recognition using Principal Component Analysis (PCA) for feature dimensionality reduction and an Artificial Neural Network (ANN) for classification. The system is designed to recognize and classify facial images from a small dataset, ensuring fast and accurate performance with reduced computational complexity.
+
+The recognition pipeline begins with image preprocessing, where facial regions are detected and resized to a uniform dimension. PCA is then applied to extract the most significant facial features—commonly referred to as eigenfaces—reducing the high-dimensional pixel space into a compact set of informative components. These compressed features are then used as input to an ANN model, which is trained to classify the identity of each face.
+
+This hybrid approach leverages the mathematical strength of PCA to reduce noise and redundancy, while using the learning capability of neural networks to adapt to varying facial features. The system was evaluated on a curated dataset of facial images and achieved high classification accuracy, demonstrating the effectiveness of combining PCA with ANN for small to medium-scale face recognition tasks.
+
+This project is particularly suited for environments with limited hardware resources, such as embedded systems or mobile devices, where both accuracy and speed are important.
+
+Keywords: PCA, ANN, Face Recognition, Eigenfaces, Dimensionality Reduction, Neural Networks, Pattern Recognition
