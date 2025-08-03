@@ -1,0 +1,13 @@
+Title: SkyEye – Smarter Object Detection for UAVs Using MSFE-YOLO
+
+Abstract:
+
+Object detection from aerial imagery poses significant challenges due to small object sizes, variable scales, and complex backgrounds. This project presents SkyEye, a smarter and more efficient object detection framework designed for Unmanned Aerial Vehicles (UAVs). Built upon the YOLOv8 architecture, SkyEye introduces a novel Multi-Scale Feature Enhancement (MSFE) module that significantly improves detection accuracy and robustness for drone-view images.
+
+The MSFE-YOLO architecture enhances the baseline YOLOv8 model with three key components: (1) Symmetric C2f (SCF) blocks for capturing rich multiscale spatial features, (2) Efficient Multiscale Attention (EMA) modules for emphasizing semantically important regions, and (3) Feature Fusion (FF) units for blending low- and high-level features. These additions enable the model to detect small, occluded, and fast-moving objects more effectively than standard detection models.
+
+The system is trained and evaluated using the VisDrone2019 dataset, which contains diverse and challenging drone-captured scenes. Prior to training, images are resized and labels are preprocessed into YOLO format. Training is conducted using the Ultralytics YOLOv8 framework with customized YAML configurations. The SkyEye model achieves a detection performance of 41.4% mAP@0.5 and 25.2% mAP@0.5:0.95, outperforming the baseline YOLOv8n in small object detection tasks.
+
+SkyEye demonstrates strong potential for deployment in real-world UAV applications such as smart city surveillance, traffic monitoring, disaster response, and autonomous navigation. By integrating advanced attention mechanisms and multiscale fusion techniques, this project contributes to improving accuracy and efficiency in drone-based object detection systems.
+
+Keywords: SkyEye, MSFE-YOLO, object detection, UAV, YOLOv8, drone imagery, multiscale attention, VisDrone dataset

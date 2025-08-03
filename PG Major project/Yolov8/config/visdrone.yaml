@@ -1,0 +1,21 @@
+# VisDrone2019 dataset config for YOLOv8
+
+path: ../dataset/  # base directory
+train: all_images/train
+val: all_images/val
+test: all_images/test
+
+# Class names based on VisDrone YOLO labels
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
+
+nc: 10
