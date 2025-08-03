@@ -1,0 +1,15 @@
+Title: Graph-Based Optimization for Multi-Scale Vehicle Detection and Recognition
+
+Abstract:
+
+Vehicle detection in real-world traffic surveillance systems is a complex task due to scale variation, occlusion, background clutter, and illumination changes. This project proposes a novel approach combining graph-based object shape optimization and Artificial Neural Network (ANN)-based classification to accurately detect and recognize vehicles of multiple sizes from video frames.
+
+The system begins by extracting frames from surveillance or drone-based aerial videos. Background subtraction and median filtering techniques are applied to eliminate noise and isolate moving objects. Using labeled data, regions of interest (ROIs) are cropped from frames based on bounding box coordinates. These ROIs often contain imperfect shapes due to motion blur, lighting, or camera angle — hence, we apply graph-based optimization to refine and correct the object contours for improved feature consistency.
+
+Feature extraction is performed on each optimized ROI. We extract Histogram of Oriented Gradients (HOG) for capturing shape and edge distribution, and energy-based descriptors to understand texture and spatial variations. These feature vectors are then used to train an ANN classifier that learns to differentiate between various vehicle types such as bus, truck, auto, bike, and others.
+
+The model is trained using labeled feature datasets and validated on test data. It achieves high accuracy in classifying multi-scale vehicles in varied scenarios. The system also includes an evaluation module that produces accuracy curves and confusion matrices for performance visualization.
+
+This project provides a robust solution for vehicle detection and classification using a hybrid of image processing, graph-based modeling, and deep learning. It is suitable for applications in traffic monitoring, smart city infrastructure, and aerial surveillance.
+
+Keywords: Graph-based optimization, vehicle detection, object shape modeling, HOG features, ANN classifier, multi-scale recognition, aerial surveillance.
